@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.btn-md{
+    display: inline-block;
+    background: #FEC544;
+    color: #08080A;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 36px;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px solid #FEC544;
+    transition: all 0.3s ease;
+}
+.btn-md:hover{
+    color: #FEC544;
+    background: none;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 0px 100px;
+    margin: auto;
+    z-index: 10;
+}
+
+.text-secondary{
+    color: #FEC544;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.m-heading{
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+/* Showcase content section */
+.showcase{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   width: 100%;
+    height: 100vh;
+}
+
+.showcase-text{
+    max-width: 800px;
+    padding-top: 250px;
+    padding-left: 120px;
+    color: #ffff;
+}
+ .showcase-text .text-1{
+    font-size: 27px;
+}
+.showcase-text .text-2{
+    font-size: 75px;
+    font-weight: 700;
+}
+.showcase-text .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+.showcase-text .text-3 span{
+    color: #FEC544;
+}
+.showcase-img img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    height: 100%;
+    opacity: 0.4;
+    object-fit: cover;
+     overflow: hidden;
+}
+
+/*NAVBAR SEC*/
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    margin: auto;
+    padding: 35px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.navbar .logo{
+    color: #ffdd4a;
+    font-size: 30px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.navbar ul li span{
+    color: #FEC544;
+    border-left: 1px solid #A9ADB8;
+    padding-left: 25px;
+    padding-right: 5px;
+    text-align: center;
+}
+.navbar ul li a{
+    color: #A9ADB8;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover{
+    color: #FEC544;
+}
+
+/* Showcase content section */
+.showcase-text{
+    max-width: 800px;
+    padding-top: 250px;
+    padding-left: 120px;
+    color: #fff;
+}
+ .showcase-text .text-1{
+    font-size: 27px;
+}
+.showcase-text .text-2{
+    font-size: 75px;
+    font-weight: 700;
+}
+.showcase-text .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+    font-weight: 700;
+}
+.showcase-text .text-3 span{
+    color: #FEC544;
+}
+
+
+
+
